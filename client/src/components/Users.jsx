@@ -16,9 +16,16 @@ const Users = (props) => {
     let level =1;
     if(props?.location?.pathname === '/friends'){
         level =2;
+        if(!user){
+            props.history.push('/');
+        }
     }
     else if(props?.location?.pathname === '/friends2'){
         level =3;
+        if(!user){
+            props.history.push('/');
+        }
+        
     }else{
         page =  props?.location?.state?.page;
     }
@@ -29,10 +36,10 @@ const Users = (props) => {
             if(level === 1){
                 data = await getUsers(page);
             }
-            else if(level === 2){
+            else if(level === 2 && user){
                 data = await getUserFriends(user.id);
             }
-            else{
+            else if(level === 3 && user){
                 data = await getUserFriends2(user.id);
             }
 
