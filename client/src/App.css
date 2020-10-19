@@ -1,0 +1,15 @@
+body{
+    background-color: #f9f9f9 !important;
+}
+
+.usercards{
+    border-radius:7px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 9px rgba(0,0,0,0.07);
+    margin:5px;
+}
+
+.usercards img{border-radius:50%;}
+.name{white-space:nowrap;overflow: hidden;text-overflow: ellipsis;font-size:14px}
+.mybtn{border:1px solid rgb(11, 170, 170);color:rgb(11, 170, 170);border-radius:4px;padding:1px;}
+.mybtn a{color:rgb(11, 170, 170) !important; text-decoration: none !important;}

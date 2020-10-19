@@ -1,0 +1,5 @@
+{
+    "serverUrl": "http://localhost:5000",
+    "useSentry": "0",
+    "sentryUrl": ""
+}

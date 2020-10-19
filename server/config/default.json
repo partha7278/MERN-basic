@@ -1,0 +1,12 @@
+{ 
+    "dbConnection": {
+        "connectionLimit" : 10,
+        "host" : "localhost",
+        "user" : "root",
+        "password" : "",
+        "database" : "codemymobile"
+    },
+    "port":"5000",
+    "logging":false,
+    "cors_urls":"http://localhost:3000"
+}
