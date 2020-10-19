@@ -6,6 +6,8 @@
 ## Details
 {EndPoint} is ```http://localhost:5000/api```
 
+
+
 ### Fetch all Users with paginations
 #### url ```{EndPoint}/users```
 #### Request (POST)
@@ -22,6 +24,9 @@
     "totalPage": {total_page}
 }
 
+</br>
+</br>
+</br>
 
 ### Fetch all friends of a user
 #### url ```{EndPoint}/users/friends/{user_id}```
@@ -35,6 +40,9 @@
     "data": []
 }
 
+</br>
+</br>
+</br>
 
 ### Fetch all friends of friends of a user (means 2nd degree connection)
 #### url ```{EndPoint}/users/friends2/{user_id}```
